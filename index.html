@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; padding-top: 8px;}
+    .attribution a { color: hsl(229, 23%, 23%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="container">
+      <img id="bg-top" src="./src/images/bg-pattern-top.svg" alt="bg-top">
+      <img id="bg-bottom" src="./src/images/bg-pattern-bottom.svg" alt="bg-bottom">
+      <div id="card-wrapper">
+        <div class="card"></div>
+        <div class="card">
+          <img src="./src/images/Duck.gif" alt="pfp-image" class="card-pfp">
+          <p class="name text-center">Victor Crest<span class="age"> 26</span></p>
+          <p class="city text-center">London</p>
+        </div>
+        <div class="card">
+          <div id="card-stats-wrapper">
+            <div class="card-stat">
+              <p class="stat text-center">80K</p>
+              <p class="stat-name text-center">Followers</p>
+            </div>
+            <div class="card-stat">
+              <p class="stat text-center">803K</p>
+              <p class="stat-name text-center">Likes </p>
+            </div>
+            <div class="card-stat">
+              <p class="stat text-center">1.4K</p>
+              <p class="stat-name text-center">Photos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Quibble7s</a>.
+        </div>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
